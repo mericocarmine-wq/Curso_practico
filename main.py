@@ -36,3 +36,7 @@ def es_mayor_de_edad(edad):
     else:
         return "Menor de edad"
 print(es_mayor_de_edad(20))
+
+def natascha_pago_alquiler(habitacion1, habitacion2):
+    return habitacion1 + habitacion2
+print(natascha_pago_alquiler(1000, 1500))
